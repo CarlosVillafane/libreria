@@ -3,15 +3,41 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+    
 .flex-paragraph{
     display:flex;
     justify-content: center;
 }
 
 .principal-text{
-    padding: 20px;
+    padding: 70px;
     font-family: 'roboto', sans-serif;
     font-size: 40px;
-    color: gray
+    color: gray;
+    text-align: center;
+}
+
+/* FlexBox Novedades */
+
+.flex-books{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+}
+
+.book-one{
+    border: 1px solid black;
+    padding:20px;
+}
+
+.subject-text{
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+
+.text-title{
+    text-align: center;
+    padding: 10px;
+    border-bottom: #00486b ;
 }
